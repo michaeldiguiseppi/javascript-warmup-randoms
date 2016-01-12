@@ -29,7 +29,7 @@ if (rand < 40) {
     }
 }
 else {
-    for (var x = 40; x <= rand; x += 2) {
+    for (var x = 41; x <= rand; x += 2) {
     console.log(x);
     }
 }
@@ -51,6 +51,6 @@ for (var y = 0; y < rand.length; y++) {
         min = rand[y];
     }
 }
-console.log(max);
-console.log(min);
+console.log("The maximum of the generated numbers is " + max);
+console.log("The minimum of the generated numbers is " + min);
 
