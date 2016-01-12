@@ -13,7 +13,10 @@ console.log("The standard deviation of " + rand1 + " and " + rand2 + " is " + st
 
 
 //random int prints even integers 0 - random number.
+
 var rand = Math.floor(Math.random() * 100);
+
+console.log("Prints out even integers from 0 to " + rand + ".");
 
 for (var x = 0; x <= rand; x += 2) {
     console.log(x);
@@ -23,6 +26,7 @@ for (var x = 0; x <= rand; x += 2) {
 
 var rand = Math.floor(Math.random() * 100);
 
+console.log("If " + rand + " is less than 40, print 1-40 odd.  Otherwise, print 40 to " + rand + " odd.")
 if (rand < 40) {
     for (var x = 1; x <= 40; x += 2) {
     console.log(x);
